@@ -1,3 +1,6 @@
+/* =====================================================
+  PHONE NUMBER 555-555-5555
+===================================================== */
 const phoneInput = document.getElementById("contact-phone");
 
 phoneInput.addEventListener("input", function () {
@@ -16,3 +19,22 @@ phoneInput.addEventListener("input", function () {
         this.value = numbers;
     }
 });
+
+/* =====================================================
+   ZELLE POP UP
+===================================================== */
+function openZelleQR() {
+    const modal = document.getElementById("zelle-qr-modal");
+
+    if (modal) {
+        modal.classList.add("active");
+    }
+}
+
+function closeZelleQR() {
+    const modal = document.getElementById("zelle-qr-modal");
+
+    if (modal) {
+        modal.classList.remove("active");
+    }
+}
