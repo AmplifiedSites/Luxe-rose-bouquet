@@ -1500,6 +1500,68 @@ a {
     font-weight: 500;
 }
 
+/* Zelle QR Modal */
+.zelle-qr-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.zelle-qr-modal.active {
+    display: flex;
+}
+
+.zelle-qr-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px 30px;
+    text-align: center;
+}
+
+.zelle-qr-modal-content h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+}
+
+.zelle-qr-description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.zelle-qr-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+.zelle-qr-note {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.zelle-qr-close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    border: none;
+    background: transparent;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+}
+
 /* =====================================================
    50% DEPOSIT
 ===================================================== */
