@@ -91,13 +91,13 @@
                 <div class="contact-page-social-section" id="contact-page-social-section">
                     <p id="contact-page-follow-title">Follow Us</p>
                     <div class="contact-page-social-icons" id="contact-page-social-icons">
-                        <a href="#" id="contact-page-instagram" aria-label="Instagram">
+                        <a href="https://www.instagram.com/luxerosebouquet?stkn=enVxenVkZHQ4OHd0&utm_source=qr" id="contact-page-instagram" aria-label="Instagram">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                         <a href="https://www.tiktok.com/@luxerosebouquet" id="contact-page-tiktok" aria-label="TikTok">
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
-                        <a href="#" id="contact-page-facebook" aria-label="Facebook">
+                        <a href="https://www.facebook.com/share/1DybtWcjdT/?mibextid=wwXlfr" id="contact-page-facebook" aria-label="Facebook">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </div>
@@ -199,7 +199,7 @@
                             class="contact-payment-options"
                             id="contact-payment-options">
                             <a
-                                href="PASTE-CASH-APP-LINK-HERE"
+                                href="https://cashapp.app/$prettygirltt"
                                 class="contact-payment-btn"
                                 id="cashapp-payment-btn"
                                 target="_blank"
@@ -216,15 +216,37 @@
                                 <i class="fa-brands fa-apple"></i>
                                 <span>Apple Pay</span>
                             </a>
-                            <a
-                                href="PASTE-ZELLE-LINK-HERE"
+                            <button
+                                type="button"
                                 class="contact-payment-btn"
                                 id="zelle-payment-btn"
-                                target="_blank"
-                                rel="noopener noreferrer">
+                                onclick="openZelleQR()">
                                 <span class="zelle-icon">Z</span>
                                 <span>Zelle</span>
-                            </a>
+                            </button>
+                        </div>
+                        <div class="zelle-qr-modal" id="zelle-qr-modal">
+                            <div class="zelle-qr-modal-content">
+                                <button
+                                    type="button"
+                                    class="zelle-qr-close"
+                                    onclick="closeZelleQR()"
+                                    aria-label="Close Zelle QR Code">
+                                    &times;
+                                </button>
+                                <h2>Pay with Zelle</h2>
+                                <p class="zelle-qr-description">
+                                    Scan the QR code with your bank's app to send your 50% deposit.
+                                </p>
+                                <img
+                                    src="zelle-qr.jpeg"
+                                    alt="Luxe Rose Bouquet Zelle QR Code"
+                                    class="zelle-qr-image"/>
+                                <p class="zelle-qr-note">
+                                    Please include your <strong>first and last name</strong>
+                                    with your payment.
+                                </p>
+                            </div>
                         </div>
                         <p
                             class="contact-payment-deposit"
@@ -268,13 +290,13 @@
                     </div>
                 </a>
                 <div class="socials" id="social-links">
-                    <a href="#" id="instagram-link" aria-label="Instagram">
+                    <a href="https://www.instagram.com/luxerosebouquet?stkn=enVxenVkZHQ4OHd0&utm_source=qr" id="instagram-link" aria-label="Instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                     <a href="https://www.tiktok.com/@luxerosebouquet" id="tiktok-link" aria-label="TikTok">
                         <i class="fa-brands fa-tiktok"></i>
                     </a>
-                    <a href="#" id="facebook-link" aria-label="Facebook">
+                    <a href="https://www.facebook.com/share/1DybtWcjdT/?mibextid=wwXlfr" id="facebook-link" aria-label="Facebook">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
                 </div>
