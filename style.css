@@ -2845,3 +2845,548 @@ a {
 /* =========================================================
    END OF THANK YOU PAGE
 ========================================================= */
+
+
+
+/* =========================================================
+   START OF PRIVACY POLICY PAGE
+========================================================= */
+
+.privacy-page {
+    width: 100%;
+    background: #fffaf8;
+    color: #302525;
+}
+
+
+/* =========================================================
+   PRIVACY HERO
+========================================================= */
+
+.privacy-hero {
+    padding: 65px 25px 55px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            rgba(255, 247, 244, 0.88),
+            rgba(247, 229, 227, 0.92)
+        ),
+        url("Soft Blush Foliage Shadows.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.privacy-eyebrow {
+    margin: 0 0 8px;
+
+    color: #bd536e;
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.privacy-hero h1 {
+    margin: 0;
+
+    color: #2f2325;
+
+    font-family: "Playfair Display", serif;
+    font-size: clamp(42px, 5vw, 60px);
+    font-weight: 500;
+}
+
+.privacy-updated {
+    margin: 12px 0 0;
+
+    color: #766668;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   PRIVACY CONTENT
+========================================================= */
+
+.privacy-content {
+    padding: 55px 25px 70px;
+}
+
+.privacy-container {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+    padding: 45px 55px;
+
+    background: #ffffff;
+
+    border: 1px solid #ead8d4;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(71, 37, 45, 0.07);
+}
+
+.privacy-intro {
+    margin: 0 0 35px;
+
+    color: #4a3d3f;
+
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   PRIVACY SECTIONS
+========================================================= */
+
+.privacy-section {
+    margin-bottom: 35px;
+}
+
+.privacy-section:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-section h2 {
+    margin: 0 0 12px;
+
+    color: #a7445e;
+
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.privacy-section p {
+    margin: 0 0 12px;
+
+    color: #4a3d3f;
+
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.privacy-section ul {
+    margin: 10px 0 15px;
+    padding-left: 22px;
+}
+
+.privacy-section li {
+    margin-bottom: 8px;
+
+    color: #4a3d3f;
+
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.privacy-section strong {
+    color: #2f2325;
+}
+
+
+/* =========================================================
+   CONTACT BUTTON
+========================================================= */
+
+.privacy-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 8px;
+    padding: 11px 25px;
+
+    background: #bd536e;
+    color: #ffffff;
+
+    border-radius: 30px;
+
+    font-size: 11px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.privacy-contact-btn:hover {
+    background: #a7445e;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 14px rgba(189, 83, 110, 0.25);
+}
+
+
+/* =========================================================
+   FOOTER LEGAL LINKS
+========================================================= */
+
+.footer-legal-links {
+    margin: 3px 0;
+}
+
+.footer-legal-links span {
+    margin: 0 6px;
+
+    color: #666666;
+}
+
+
+/* =========================================================
+   PRIVACY TABLET
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .privacy-hero {
+        padding: 55px 20px 45px;
+    }
+
+    .privacy-content {
+        padding: 40px 20px 55px;
+    }
+
+    .privacy-container {
+        padding: 35px 35px;
+    }
+
+}
+
+
+/* =========================================================
+   PRIVACY MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .privacy-hero {
+        padding: 45px 18px 40px;
+    }
+
+    .privacy-eyebrow {
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+
+    .privacy-hero h1 {
+        font-size: 39px;
+    }
+
+    .privacy-updated {
+        font-size: 9px;
+    }
+
+    .privacy-content {
+        padding: 25px 15px 40px;
+    }
+
+    .privacy-container {
+        padding: 28px 20px;
+
+        border-radius: 8px;
+    }
+
+    .privacy-intro {
+        margin-bottom: 28px;
+
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    .privacy-section {
+        margin-bottom: 28px;
+    }
+
+    .privacy-section h2 {
+        font-size: 20px;
+    }
+
+    .privacy-section p,
+    .privacy-section li {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .privacy-section ul {
+        padding-left: 18px;
+    }
+
+    .privacy-contact-btn {
+        padding: 10px 22px;
+
+        font-size: 10px;
+    }
+
+}
+/* =========================================================
+   END OF PRIVACY POLICY PAGE
+========================================================= */
+
+
+
+/* =========================================================
+   START OF TERMS OF SERVICE PAGE
+========================================================= */
+
+.terms-page {
+    width: 100%;
+    background: #fffaf8;
+    color: #302525;
+}
+
+
+/* TERMS HERO */
+
+.terms-hero {
+    padding: 65px 25px 55px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            rgba(255, 247, 244, 0.88),
+            rgba(247, 229, 227, 0.92)
+        ),
+        url("Soft Blush Foliage Shadows.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.terms-eyebrow {
+    margin: 0 0 8px;
+
+    color: #bd536e;
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.terms-hero h1 {
+    margin: 0;
+
+    color: #2f2325;
+
+    font-family: "Playfair Display", serif;
+    font-size: clamp(42px, 5vw, 60px);
+    font-weight: 500;
+}
+
+.terms-updated {
+    margin: 12px 0 0;
+
+    color: #766668;
+
+    font-size: 11px;
+}
+
+
+/* TERMS CONTENT */
+
+.terms-content {
+    padding: 55px 25px 70px;
+}
+
+.terms-container {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+    padding: 45px 55px;
+
+    background: #ffffff;
+
+    border: 1px solid #ead8d4;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(71, 37, 45, 0.07);
+}
+
+.terms-intro {
+    margin: 0 0 35px;
+
+    color: #4a3d3f;
+
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+
+/* TERMS SECTIONS */
+
+.terms-section {
+    margin-bottom: 35px;
+}
+
+.terms-section:last-child {
+    margin-bottom: 0;
+}
+
+.terms-section h2 {
+    margin: 0 0 12px;
+
+    color: #a7445e;
+
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.terms-section p {
+    margin: 0 0 12px;
+
+    color: #4a3d3f;
+
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.terms-section strong {
+    color: #2f2325;
+    font-weight: 600;
+}
+
+
+/* PRIVACY POLICY LINK */
+
+.terms-inline-link {
+    color: #bd536e;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.terms-inline-link:hover {
+    color: #a7445e;
+    text-decoration: underline;
+}
+
+
+/* CONTACT BUTTON */
+
+.terms-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 8px;
+    padding: 11px 25px;
+
+    background: #bd536e;
+    color: #ffffff;
+
+    border-radius: 30px;
+
+    font-size: 11px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.terms-contact-btn:hover {
+    background: #a7445e;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 14px rgba(189, 83, 110, 0.25);
+}
+
+
+/* TABLET */
+
+@media (max-width: 800px) {
+
+    .terms-hero {
+        padding: 55px 20px 45px;
+    }
+
+    .terms-content {
+        padding: 40px 20px 55px;
+    }
+
+    .terms-container {
+        padding: 35px;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .terms-hero {
+        padding: 45px 18px 40px;
+    }
+
+    .terms-eyebrow {
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+
+    .terms-hero h1 {
+        font-size: 39px;
+    }
+
+    .terms-updated {
+        font-size: 9px;
+    }
+
+    .terms-content {
+        padding: 25px 15px 40px;
+    }
+
+    .terms-container {
+        padding: 28px 20px;
+
+        border-radius: 8px;
+    }
+
+    .terms-intro {
+        margin-bottom: 28px;
+
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    .terms-section {
+        margin-bottom: 28px;
+    }
+
+    .terms-section h2 {
+        font-size: 20px;
+    }
+
+    .terms-section p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .terms-contact-btn {
+        padding: 10px 22px;
+
+        font-size: 10px;
+    }
+
+}
+/* =========================================================
+   END OF TERMS OF SERVICE PAGE
+========================================================= */
