@@ -1500,6 +1500,68 @@ a {
     font-weight: 500;
 }
 
+/* Cash App QR Modal */
+.cashapp-qr-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cashapp-qr-modal.active {
+    display: flex;
+}
+
+.cashapp-qr-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px 30px;
+    text-align: center;
+}
+
+.cashapp-qr-modal-content h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+}
+
+.cashapp-qr-description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.cashapp-qr-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+.cashapp-qr-note {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.cashapp-qr-close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    border: none;
+    background: transparent;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+}
+
 /* Zelle QR Modal */
 .zelle-qr-modal {
     display: none;
