@@ -38,3 +38,22 @@ function closeZelleQR() {
         modal.classList.remove("active");
     }
 }
+
+/* =====================================================
+   CASH APP POP UP
+===================================================== */
+function openCashAppQR() {
+    const modal = document.getElementById("cashapp-qr-modal");
+
+    if (modal) {
+        modal.classList.add("active");
+    }
+}
+
+function closeCashAppQR() {
+    const modal = document.getElementById("cashapp-qr-modal");
+
+    if (modal) {
+        modal.classList.remove("active");
+    }
+}
